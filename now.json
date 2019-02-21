@@ -2,5 +2,6 @@
   "version": 2,
   "name": "ts-node-express",
   "builds": [{ "src": "/build/app.js", "use": "@now/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "/build/app.js" }]
+  "routes": [{ "src": "/(.*)", "dest": "/build/app.js" }],
+  "alias": "ts-node-express"
 }
