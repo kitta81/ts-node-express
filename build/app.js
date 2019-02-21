@@ -4,7 +4,7 @@ const Express = require("express");
 const app = Express();
 const PORT = 1234;
 app.get('/', (req, res) => {
-    const msg = 'Hello World x Typescript x Express';
+    const msg = 'Hello World x Typescript x Express x now (auto deploy)';
     res.send(msg);
 });
 app.listen(PORT, () => {
