@@ -3,7 +3,7 @@ const app = Express();
 const PORT: Number = 1234;
 
 app.get('/', (req: Express.Request, res: Express.Response) => {
-  const msg: string = 'Hello World';
+  const msg: string = 'Hello World x Typescript';
   res.send(msg);
 });
 
